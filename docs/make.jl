@@ -11,9 +11,10 @@ makedocs(
 # See "Hosting Documentation" and deploydocs() in the Documenter manual
 # for more information.
 
-#https://discourse.julialang.org/t/documenter-jl-deployment-issue-with-repo-containing-protocol/64367
+# https://discourse.julialang.org/t/documenter-jl-deployment-issue-with-repo-containing-protocol/64367
+# https://github.com/JuliaDocs/Documenter.jl/issues/663
 deploydocs(
-    repo = "https://github.com/WhiffleFish/DocumentationTest.jl.git",
+    repo = "github.com/WhiffleFish/DocumentationTest.jl.git",
     target = "build",
     push_preview = false
 )
