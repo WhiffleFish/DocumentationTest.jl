@@ -15,6 +15,7 @@ makedocs(
 # https://github.com/JuliaDocs/Documenter.jl/issues/663
 deploydocs(
     repo = "github.com/WhiffleFish/DocumentationTest.jl.git",
+    devbranch = "main"
     target = "build",
     push_preview = false
 )
