@@ -3,9 +3,10 @@ using Documenter
 using DocumentationTest
 
 makedocs(
-    sitename = "DocumentationTest",
+    sitename = "DocumentationTest.jl",
     format = Documenter.HTML(),
-    modules = [DocumentationTest]
+    modules = [DocumentationTest],
+    pages = ["api.md", "faq.md"]
 )
 # Documenter can also automatically deploy documentation to gh-pages.
 # See "Hosting Documentation" and deploydocs() in the Documenter manual
